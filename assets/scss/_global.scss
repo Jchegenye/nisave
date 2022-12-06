@@ -1,0 +1,45 @@
+body {
+    font-family: var(--font);
+    font-size: var(--font-normal);
+    font-weight: var(--font-weight-lighter);
+    overflow-x: hidden !important;
+}
+
+h1{
+    font-weight: var(--font-weight-800);
+    font-size: var(--font-largest);
+}
+
+a{
+    color: var(--primary-color);
+}
+
+.mt-120{
+    margin-top: 120px;
+}
+
+// buttons
+.btn-nisave {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: var(--font-medium);
+    &:hover {
+        background-color: var(--white-color);
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+}
+
+// card
+.card{
+    background: var(--white-color);
+    box-shadow: 0px 12px 16px rgb(0 0 0 / 8%), 0px 4px 6px rgb(0 0 0 / 3%);
+    border-radius: 5px;
+    border: 0;
+    padding: 24px 48px 48px;
+    
+    p{
+    font-size: var(--font-small);
+    }
+}
+
