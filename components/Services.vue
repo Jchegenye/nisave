@@ -4,10 +4,12 @@
     class="services justify-content-md-center text-center mt-120"
   >
     <b-col md="6" offset-md="1">
-      <h1>It's your money. You decide where it goes.</h1>
+      <h1>Your Money Your Terms</h1>
+      <h5>You decide, we make it happen</h5>
       <p class="pt-md-2">
-        Your friends and family are your first real help when you need a quick
-        loan. They trust you and may offer better terms and conditions.
+        We have combined all the tools you need in to one brilliant mobile
+        application to empower you and your trusted social network, to grow and
+        retain wealth.
       </p>
     </b-col>
 
@@ -17,12 +19,13 @@
     >
       <b-col md="4">
         <b-card no-body class="card">
-          <h2>Cubes</h2>
+          <h2>P2P Loans</h2>
           <p class="my-4">
-            Create a circle - with an option of private (private/ public - with
-            another option of savings or fundraising circle Your friends and
-            family are your first real help when you need a quick loan. They
-            trust you and may offer better terms and conditions.
+            Stop lending informally to your family and friends, next time the
+            say <i>nisave na soft loan</i> tell them to download nisave and
+            request for a soft loan formally. Nisave enables you to set flexible
+            loan terms, track your loan activity and send out reminders when the
+            loan is due, all within the confines of a binding digital contract.
           </p>
           <svg
             width="165"
@@ -91,12 +94,11 @@
       </b-col>
       <b-col md="4">
         <b-card no-body class="card">
-          <h2>Fundraisers</h2>
+          <h2>Fundraising Cubes</h2>
           <p class="my-4">
-            Create a circle - with an option of private (private/ public - with
-            another option of savings or fundraising circle Your friends and
-            family are your first real help when you need a quick loan. They
-            trust you and may offer better terms and conditions.
+            Say goodbye to inconvenient and annoying fundraising on WhatsApp
+            groups, with nisave you can create a fundraising cube, invite others
+            and fundraise with convenience and transparency.
           </p>
           <svg
             width="241"
@@ -2835,12 +2837,11 @@
       </b-col>
       <b-col md="4">
         <b-card no-body class="card">
-          <h2>Cubes</h2>
+          <h2>Chama Cubes</h2>
           <p class="my-4">
-            Create a circle - with an option of private (private/ public - with
-            another option of savings or fundraising circle Your friends and
-            family are your first real help when you need a quick loan. They
-            trust you and may offer better terms and conditions.
+            Create chama cubes conveniently with your family and friends and
+            start saving for the future, grow and retain wealth together. Nisave
+            chama cubes is the best in the market.
           </p>
           <svg
             width="241"

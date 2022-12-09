@@ -6,10 +6,23 @@
     .footer__dice {
        display: none;
     }
+    
+    .faq {
+        .mt-120 {
+            margin-top: 0px !important;
+        }
+    }
+    .video.mt-120 {
+        margin-top: 0px !important;
+    }
     .mt-120 {
         margin-top: 90px !important;
     }
-    .video svg{width: 50px !important}
+    .video {
+        svg {
+                width: 50px !important
+            }
+    }
     .services{
         margin-top: 120px !important;
     }
@@ -24,13 +37,36 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    
+@media (max-width: 768px) {
+    .faq {
+        .mt-120 {
+            margin-top: 0px !important;
+        }
+    }
+    .video.mt-120 {
+        margin-top: 0px !important;
+    }
+    .hero {
+        &__content{
+            padding-top: 40px;
+        }
+        .navbar {
+            padding: 0.5rem 0rem;
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    
+@media (max-width: 992px) {
+    .faq {
+        .mt-120 {
+            margin-top: 0px !important;
+        }
+    }
+
+    .video.mt-120 {
+        margin-top: 0px !important;
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)

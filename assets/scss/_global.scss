@@ -1,3 +1,4 @@
+html,
 body {
     font-family: var(--font);
     font-size: var(--font-normal);
@@ -12,6 +13,10 @@ h1{
 
 a{
     color: var(--primary-color);
+    :hover{
+        color: #ea004e99;
+        text-decoration: none;
+    }
 }
 
 .mt-120{
@@ -39,7 +44,45 @@ a{
     padding: 24px 48px 48px;
     
     p{
-    font-size: var(--font-small);
+        font-size: var(--font-small);
+    }
+}
+
+//
+.faq{
+    .owl-nav {
+        text-align: left !important;
+
+        button {
+            background-color: var(--primary-color) !important;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 44px;
+            height: 44px;
+            text-align: center;
+            line-height: 40px !important;
+            border-radius: 50% !important;
+            margin: 0 !important;
+            cursor: pointer !important;
+
+            span {
+                font-size: 30px;
+            }
+        }
+        .owl-prev {
+            margin-right: 15px !important;
+        }
+    }
+}
+
+#bv-modal-video{
+    .modal-content {
+        border: 0;
+        border-radius: 0;
+    }
+    .modal-body {
+        padding: 0;
     }
 }
 

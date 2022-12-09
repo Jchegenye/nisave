@@ -30,6 +30,7 @@
 .navbar {
   &__toggle {
     border-color: transparent !important;
+    padding: 0;
 
     &--close > span,
     &--open > span {

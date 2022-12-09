@@ -22,7 +22,7 @@
     <b-container fluid="lg">
       <b-row>
         <b-col md="6" offset-md="3" class="text-center mt-120">
-          <h1>Are you ready to start borrowing from people you trust?</h1>
+          <h1>Join us, Let’s start a revolution!</h1>
         </b-col>
       </b-row>
     </b-container>
