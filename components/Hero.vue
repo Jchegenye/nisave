@@ -2,7 +2,7 @@
   <b-row align-v="center" class="hero__content">
     <b-col md="6">
       <div>
-        <h1 class="d-flex">
+        <h1 class="d-flex mb-4">
           Trust Is King
           <svg
             x="0px"
