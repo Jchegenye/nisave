@@ -76,7 +76,7 @@ export default {
 .hero {
   position: relative;
   min-height: 100%;
-  background: url(../assets/imgs/Hero-Image.png) rgba(0, 0, 0, 0.29);
+  background: url(../assets/imgs/Hero-Image.webp) rgba(0, 0, 0, 0.29);
   background-size: cover;
   background-blend-mode: overlay;
   background-repeat: no-repeat;

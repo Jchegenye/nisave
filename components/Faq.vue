@@ -1,9 +1,16 @@
 <template>
   <b-row
     align-v="center"
-    class="justify-content-md-center text-left mt-120 faq__inner py-5"
+    class="
+      justify-content-md-center
+      text-left
+      mt-120
+      faq__inner
+      py-5
+      px-4 px-lg-0
+    "
   >
-    <b-col md="10">
+    <b-col lg="10">
       <no-ssr>
         <carousel
           :autoplay="true"
@@ -41,7 +48,7 @@
         </carousel>
       </no-ssr>
     </b-col>
-    <b-col md="2" offset-md="1"></b-col>
+    <b-col lg="2" offset-lg="1"></b-col>
   </b-row>
 </template>
 <style lang="scss" scoped>

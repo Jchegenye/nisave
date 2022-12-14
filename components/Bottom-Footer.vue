@@ -92,7 +92,7 @@
     width: 250px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 150px;
   }
   ul {
     margin: 0;

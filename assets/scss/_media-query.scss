@@ -3,10 +3,12 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
-    .footer__dice {
-       display: none;
+    .hero {
+        background: url(../imgs/mobile.webp) rgba(0, 0, 0, 0.29) !important;
+        background-repeat: no-repeat !important;
+            background-blend-mode: overlay !important;
+            background-size: cover !important;
     }
-    
     .faq {
         .mt-120 {
             margin-top: 0px !important;
@@ -24,7 +26,17 @@
             }
     }
     .services{
-        margin-top: 120px !important;
+        margin-top: 160px !important;
+        img {
+                width: 300px;
+                margin: 0 auto;
+                margin-top: 45px;
+            }
+        .card{
+            margin: 15px;
+            justify-content: center;
+            height: auto !important;
+        }
     }
     .hero {
         &__content{
@@ -34,10 +46,20 @@
             padding: 0.5rem 0rem;
         }
     }
+    .footer__dice.small {
+        width: 130px !important;
+        bottom: 220px !important;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
+    .hero {
+        background: url(../imgs/mobile.webp) rgba(0, 0, 0, 0.29) !important;
+        background-repeat: no-repeat !important;
+            background-blend-mode: overlay !important;
+            background-size: cover !important;
+    }
     .faq {
         .mt-120 {
             margin-top: 0px !important;
@@ -54,6 +76,23 @@
             padding: 0.5rem 0rem;
         }
     }
+    .services {
+        margin-top: 160px !important;
+        img {
+                width: 300px;
+                margin: 0 auto;
+                margin-top: 45px;
+            }
+        .card {
+            margin: 15px;
+            justify-content: center;
+            height: auto !important;
+        }
+    }
+    .footer__dice {
+        width: 150px !important;
+        bottom: 180px !important;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -63,7 +102,15 @@
             margin-top: 0px !important;
         }
     }
-
+    .services {
+        margin-top: 160px !important;
+    
+        img {
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 45px;
+        }
+    }
     .video.mt-120 {
         margin-top: 0px !important;
     }

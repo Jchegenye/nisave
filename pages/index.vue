@@ -34,7 +34,7 @@
         src="~/assets/imgs/red-dice.png"
         fluid
         alt="red-dice"
-        class="footer__dice"
+        class="footer__dice small medium"
       ></b-img>
     </b-container>
   </div>

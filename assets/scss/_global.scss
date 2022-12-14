@@ -42,10 +42,7 @@ a{
     border-radius: 5px;
     border: 0;
     padding: 24px 48px 48px;
-    
-    p{
-        font-size: var(--font-small);
-    }
+    justify-content: space-between;
 }
 
 //
@@ -85,4 +82,3 @@ a{
         padding: 0;
     }
 }
-
